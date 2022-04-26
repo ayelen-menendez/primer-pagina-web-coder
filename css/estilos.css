@@ -108,7 +108,9 @@ gap: 1rem;
 text-decoration: none;}
 
 
-.fondodos{ background-color:#EEEEEE;}
+.fondodos{
+   background-color:honeydew;
+}
 
 .doctora{ color: gray;
     font-style: normal;
@@ -161,7 +163,8 @@ text-decoration: none;}
 }
 
 .secciong{
-    width: 100%;
+    width: 100%
+
    
 }
 
@@ -289,4 +292,8 @@ align-items: center;
      .header__open{
          text-decoration: none;
      }
+ }
+
+ .contacto{
+   background-color: seashell;
  }
