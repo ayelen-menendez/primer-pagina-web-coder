@@ -1,0 +1,276 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main section h1{
+    color: #a832a2;
+}
+
+.parrafo{
+    color:black !important;
+    font-size: medium;
+font-style: normal;
+text-align:center;}
+
+.titulo{ color: darkslateblue;
+    margin: 20px;
+    font-size: 30px;
+font-style: italic;
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+text-align: center;}
+
+.fondo{
+    background-color: darkgoldenrod;
+    background-image: url(../imagenes/fondo-2.jpg);
+    border-radius: 30%;
+    border: 10px solid grey;
+
+    
+    
+}
+
+h1{ text-align:center;
+margin: 20px;}
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+
+}
+
+.prueba{
+
+   display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #E0DCDC;
+    border-radius: 30%;
+    padding: 16px;
+    border: 10px solid grey;
+
+}
+  
+  
+  .cambio{background-color: #ffedeb;}
+ 
+.logo{width: 10%;}
+      .flex{
+          width: 60%;
+          height: 100%;
+          display: flex; 
+          flex-direction: row; 
+          justify-content:space-between;
+          align-items:center;
+    justify-content: space-between;
+
+
+  }
+
+ul{list-style: none;}
+
+
+  .header
+ { 
+      color: black;
+    background-color:#ffedeb;
+    width: 100%;
+    height: 100%;
+padding: 1rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+    
+.nav{
+    width: 100%;
+
+   
+}
+.nav__lista{
+    list-style:none;
+    width: 100%;
+display: flex;
+flex-direction:row;
+justify-content: flex-end;
+align-items: center;
+gap: 1rem;
+
+}
+ 
+.nav__enlace{ color: indigo;
+text-decoration: none;}
+
+
+.fondodos{ background-color:#EEEEEE;}
+
+.doctora{ color: gray;
+    font-style: normal;
+    font-weight: bold;
+
+    font-size: medium;
+    font-style:'Roboto Condensed', sans-serif;
+    text-align:justify;
+}
+.doctor{
+    color: gray;
+    font-style: normal;
+    font-weight: bold;
+
+    font-size: medium;
+    font-style:'Roboto Condensed', sans-serif;
+    text-align: justify;
+    border-radius: 30%;
+
+}
+
+.imagendoctora{
+    display:block;
+    margin: auto;
+    flex-direction:row;
+    justify-content:center;
+    border-radius: 30%;
+
+}
+
+.imagendoctor{
+    display:block;
+    margin: auto;
+    flex-direction: row;
+    justify-content:center;
+    border-radius: 30%;
+}
+
+
+.fotos{
+    display: flex;
+    margin-top: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cuerpo{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.secciong{
+    width: 100%;
+}
+
+.secciong__titulo{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: lightcoral;
+
+}
+.grid{
+    border: 3px solid grey;
+    padding: 2 rem;
+    min-height: 300px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: 
+    "ele1 ele2"
+    "ele3 ele4"
+    "ele5 ele6"
+    ;
+
+    row-gap: 2rem;
+    column-gap: 2rem;
+
+
+    justify-content: stretch;
+    align-content: stretch;
+}
+    .grid__hijo--1{
+        grid-area: ele1;
+
+    }
+
+    .grid__hijo--2{
+        grid-area: ele2;
+    }
+
+
+    .grid__hijo--3{
+        grid-area: ele3;
+    }
+
+
+    .grid__hijo--4{
+        grid-area: ele4;
+
+    }
+
+    .grid__hijo--5{
+        grid-area: ele5;
+    }
+
+    .grid__hijo--6{
+        grid-area: ele6;
+    }
+
+.grid__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__icono{ display: none;}
+
+@media screen  and (max-width: 1024px){
+
+}
+ @media screen  and (max-width: 600px){
+     .header{background-color: pink;
+    flex-direction: row;}
+
+     .nav{display: none;}
+
+
+#sidebar{
+
+    background-color: lightpink;
+    padding: 1rem;
+    position: fixed;
+    top: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 85%;
+    max-width: 350px;
+    transform: translateX(-100%)
+
+
+}
+
+#sidebar .nav__lista{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+     #sidebar:target{
+         transform: translateX(0);
+     }
+
+     .header__icono{
+         display: block;
+         font-size: 35px;
+         color:#a832a2;
+     }
+
+     .header__open{
+         text-decoration: none;
+     }
+ }
