@@ -162,6 +162,7 @@ text-decoration: none;}
 
 .secciong{
     width: 100%;
+   
 }
 
 .secciong__titulo{
@@ -169,7 +170,11 @@ text-decoration: none;}
     font-style: italic;
     font-weight: bold;
     color: lightcoral;
-
+    grid-area: 1 / 1 / 3 / 3 ;
+    background-image: linear-gradient( 45deg, #FDF2E9 #FADBD8 );
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 .grid{
     border: 3px solid grey;
