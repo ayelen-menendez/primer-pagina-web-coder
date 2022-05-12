@@ -1,0 +1,38 @@
+
+.fondo{
+    background-color: darkgoldenrod;
+    background-image: url(../imagenes/fondo-2.jpg);
+    border-radius: 30%;
+    border: 10px solid grey;
+
+    
+
+    h1{ text-align:center;
+        margin: 20px;}
+
+
+
+        .titulo{ color: darkslateblue;
+            margin: 20px;
+            font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;}
+
+        .parrafo{
+            color:black !important;
+            font-size: medium;
+        font-style: normal;
+        text-align:center;}
+
+        .container{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 16px;
+        
+        }
+
+    
+}
