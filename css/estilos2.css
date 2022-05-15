@@ -1,0 +1,23 @@
+h1{ text-align:center;
+    margin: 20px;
+    color: #a832a2;
+}
+
+.titulo{ color: darkslateblue;
+    margin: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;}
+
+.parrafo{
+    color:black !important;
+    font-size: medium;
+    font-style: normal;
+    text-align:center;}
+
+.fondo{
+    background-color: darkgoldenrod;
+    background-image: url(../imagenes/fondo-2.jpg);
+}
