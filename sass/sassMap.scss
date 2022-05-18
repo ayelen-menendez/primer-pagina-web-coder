@@ -1,0 +1,30 @@
+
+
+/*nombreColor-tipo*/
+$mapAtributos: (
+        celeste: #55acee,
+        azul: #3a5795,
+        rosa: indianred,
+        texto: Helvetica,
+        myFontSize:18px,
+        myWidth: 680px,
+        subrrayado: underline,
+        negrita: bold
+);
+
+
+.nosotros1 {
+  text-decoration:map-get($mapAtributos, subrrayado);
+  color: map-get($mapAtributos, rosa);
+  font-weight:map-get($mapAtributos, negrita);
+}
+
+/**
+.nosotros1{ color:indianred;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+/
+ */
