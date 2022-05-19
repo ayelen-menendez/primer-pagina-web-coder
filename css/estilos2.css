@@ -34,11 +34,21 @@ h1{ text-align:center;
 }
 
 
-.nosotros1{ color:indianred;
+.nosotros2{ color:indianred;
     text-decoration: underline;
     font-weight: bold;
 
 }
+
+.servicios{
+    color: indigo;
+    font-style: normal;
+    text-decoration-line: underline;
+    text-shadow: #474747;
+}
+
+
+
 
 
 .videos{color: indianred;
@@ -63,3 +73,4 @@ font-size:large}
         transform: translate(100px);}
         
     }
+
